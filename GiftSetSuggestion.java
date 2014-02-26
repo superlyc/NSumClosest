@@ -17,11 +17,12 @@ public class GiftSetSuggestion {
         String total_price = br.readLine();
         System.out.println("Please enter a category you want to shop:");
         String category = br.readLine();
+        
         try{
             n = Integer.parseInt(num_gifts);
             //System.out.println(n);
             totalprice = Double.parseDouble(total_price);
-            if (category=="")
+            if (category.equals(""))
             	category="all"; //default value
             //System.out.println(totalprice);
         }catch(NumberFormatException nfe){
