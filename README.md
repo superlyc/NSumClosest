@@ -91,3 +91,8 @@ It will return {"statusCode":"401","error":"Zappos API requests are being thrott
 So, I assume current request is not faster than 2 call/sec. 
 Therefore, I did not include sleep() function,
 but that is something could be done to comply with the rate limit set by API.
+
+Test Results
+
+
+Results are listed in Report.docx
