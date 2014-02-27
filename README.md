@@ -7,13 +7,16 @@ This Java program finds n gifts matches a target price closely.
 *What files does it include?
 
 1 GiftSetSuggestion.java
-	contains main methods
+	
+	contains the main method
 	
 2 SearchAndSuggest.java
+	
 	Retrieve product information and call methods in XSumClosest.java
 	It print out the results(all the sets of gifts)
 	
 3 XSumClosest.java
+	
 	It implemented the algorithm for of finding sum of the x (or n) 
 	products' price that matches the target price closest.
 	
@@ -36,7 +39,7 @@ the program also requires the key from zappos. To change the key please edit the
 	2)SearchAndSuggest.java
 	3)XSumClosest.java
 	
-3 If you don't creat packag named as "zappos", you need to change the package name in each of the 3 files above.
+3 If you don't create package named as "zappos", you need to change the package name in each of the 3 files above.
 
 4 If you want to use your own key from Zappos, please edit the urls in SearchAndSuggest.java by changing the key.
 
@@ -57,7 +60,7 @@ Please enter a category you want to shop:
 boots //enter a category
 
 
-*When input in IDE console, sometime need to move the cursor to the next line after hint line 
+*When input in IDE console, sometimes you may (very rare, only once to me) need to move the cursor to the next line after hint line 
 such as “Please enter number of gift you are looking for:”
 
 
@@ -74,7 +77,7 @@ Sample output
 Tot Bowl  for Big Kids(8314215):$3.99		Gypsy Liners(8101781):$4.99
 
 
-*Number of requests Limit
+*Number of requests Limit set by API
 
 
 1 As the number of request send to the API is limited. Sometime it will results in error messages such as "

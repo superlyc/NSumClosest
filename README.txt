@@ -8,7 +8,7 @@ This Java program finds n gifts matches a target price closely.
 
 1 GiftSetSuggestion.java
 	
-	contains main methods
+	contains the main method
 	
 2 SearchAndSuggest.java
 	
@@ -60,7 +60,7 @@ Please enter a category you want to shop:
 boots //enter a category
 
 
-*When input in IDE console, sometimes need to move the cursor to the next line after hint line 
+*When input in IDE console, sometimes you may (very rare, only once to me) need to move the cursor to the next line after hint line 
 such as “Please enter number of gift you are looking for:”
 
 
@@ -77,7 +77,7 @@ Sample output
 Tot Bowl  for Big Kids(8314215):$3.99		Gypsy Liners(8101781):$4.99
 
 
-*Number of requests Limit
+*Number of requests Limit set by API
 
 
 1 As the number of request send to the API is limited. Sometime it will results in error messages such as "
